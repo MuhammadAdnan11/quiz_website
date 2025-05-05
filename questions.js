@@ -1,6 +1,172 @@
-let questions = [
+let questions = 
+    [
+        {
+            numb: 1,
+            question: "Which of the following best defines a computer?",
+            answer: "C. An electronic device that processes data to produce meaningful information",
+            options: [
+                "A. A machine that prints documents",
+                "B. A device that only stores patient data",
+                "C. An electronic device that processes data to produce meaningful information",
+                "D. A device used solely for internet access"
+            ]
+        },
+        {
+            numb: 2,
+            question: "In medical practice, computers are primarily used for:",
+            answer: "B. Diagnosing diseases through data analysis",
+            options: [
+                "A. Cooking",
+                "B. Diagnosing diseases through data analysis",
+                "C. Creating art",
+                "D. Playing games"
+            ]
+        },
+        {
+            numb: 3,
+            question: "The term 'hardware' in a computer refers to:",
+            answer: "B. Physical parts of the computer",
+            options: [
+                "A. Medical software",
+                "B. Physical parts of the computer",
+                "C. A type of virus",
+                "D. None of the above"
+            ]
+        },
+        {
+            numb: 4,
+            question: "The 'brain' of the computer is called:",
+            answer: "C. CPU",
+            options: [
+                "A. Hard Disk",
+                "B. Monitor",
+                "C. CPU",
+                "D. Keyboard"
+            ]
+        },
+        {
+            numb: 5,
+            question: "Which of the following is an example of applying computer skills in a hospital?",
+            answer: "A. Data visualization for public health trends",
+            options: [
+                "A. Data visualization for public health trends",
+                "B. Handwriting prescriptions",
+                "C. Manual temperature checking",
+                "D. Using a scalpel"
+            ]
+        },
+        {
+            numb: 6,
+            question: "Which type of computer is best for mathematical calculations like ECG waveforms?",
+            answer: "B. Analog",
+            options: [
+                "A. Digital",
+                "B. Analog",
+                "C. Hybrid",
+                "D. Super"
+            ]
+        },
+        {
+            numb: 7,
+            question: "MRI machines often use which type of computer system for data interpretation?",
+            answer: "A. Supercomputer",
+            options: [
+                "A. Supercomputer",
+                "B. Digital",
+                "C. Analog",
+                "D. Typewriter"
+            ]
+        },
+        {
+            numb: 8,
+            question: "Hybrid computers are best described as:",
+            answer: "C. A combination of analog and digital",
+            options: [
+                "A. Only analog",
+                "B. Only digital",
+                "C. A combination of analog and digital",
+                "D. Mechanical"
+            ]
+        },
+        {
+            numb: 9,
+            question: "Which computer type is suitable for managing hospital databases of millions of patients?",
+            answer: "A. Mainframe",
+            options: [
+                "A. Mainframe",
+                "B. PC",
+                "C. Workstation",
+                "D. Tablet"
+            ]
+        },
+        {
+            numb: 10,
+            question: "Which computer type is commonly used by doctors for personal use?",
+            answer: "C. Personal Computer (PC)",
+            options: [
+                "A. Supercomputer",
+                "B. Mainframe",
+                "C. Personal Computer (PC)",
+                "D. Analog Computer"
+            ]
+        },
+        {
+            numb: 11,
+            question: "A barcode scanner in a hospital acts as a(n):",
+            answer: "B. Input device",
+            options: [
+                "A. Output device",
+                "B. Input device",
+                "C. Memory unit",
+                "D. Processing unit"
+            ]
+        },
+        {
+            numb: 12,
+            question: "Which device is used to display output like X-rays?",
+            answer: "B. Monitor",
+            options: [
+                "A. Printer",
+                "B. Monitor",
+                "C. Mouse",
+                "D. Scanner"
+            ]
+        },
+        {
+            numb: 13,
+            question: "Which of the following is an input device?",
+            answer: "C. Keyboard",
+            options: [
+                "A. Speaker",
+                "B. Projector",
+                "C. Keyboard",
+                "D. Monitor"
+            ]
+        },
+        {
+            numb: 14,
+            question: "Devices like printers are used to:",
+            answer: "C. Display processed results",
+            options: [
+                "A. Receive input",
+                "B. Store data",
+                "C. Display processed results",
+                "D. Transmit viruses"
+            ]
+        },
+        {
+            numb: 15,
+            question: "In digital pathology, which device captures slide images?",
+            answer: "B. Scanner",
+            options: [
+                "A. Mouse",
+                "B. Scanner",
+                "C. CPU",
+                "D. Microphone"
+            ]
+        },
     {
-        numb: 1,
+        numb: 16,
         question: "What is the main function of a computer?",
         answer: "D. All of the above",
         options: [
@@ -11,7 +177,7 @@ let questions = [
         ]
     },
     {
-        numb: 2,
+        numb: 17,
         question: "Which of these is an example of an input device?",
         answer: "B. Keyboard",
         options: [
@@ -22,7 +188,7 @@ let questions = [
         ]
     },
     {
-        numb: 3,
+        numb: 18,
         question: "Which of the following is NOT a hardware component?",
         answer: "B. Operating System",
         options: [
@@ -33,7 +199,7 @@ let questions = [
         ]
     },
     {
-        numb: 4,
+        numb: 19,
         question: "Which of these devices stores permanent data?",
         answer: "B. ROM",
         options: [
@@ -44,7 +210,7 @@ let questions = [
         ]
     },
     {
-        numb: 5,
+        numb: 20,
         question: "Which shortcut key is used to undo the last action?",
         answer: "C. Ctrl + Z",
         options: [
@@ -55,7 +221,7 @@ let questions = [
         ]
     },
     {
-        numb: 6,
+        numb: 21,
         question: "What does CPU stand for?",
         answer: "A. Central Processing Unit",
         options: [
@@ -66,7 +232,7 @@ let questions = [
         ]
     },
     {
-        numb: 7,
+        numb: 22,
         question: "Which part of the computer is known as the 'brain'?",
         answer: "A. CPU",
         options: [
@@ -77,7 +243,7 @@ let questions = [
         ]
     },
     {
-        numb: 8,
+        numb: 23,
         question: "Which of these is a primary storage device?",
         answer: "B. RAM",
         options: [
@@ -88,7 +254,7 @@ let questions = [
         ]
     },
     {
-        numb: 9,
+        numb: 24,
         question: "What is the function of the motherboard?",
         answer: "B. To connect all hardware components",
         options: [
@@ -99,7 +265,7 @@ let questions = [
         ]
     },
     {
-        numb: 10,
+        numb: 25,
         question: "Which unit is used to measure the speed of a CPU?",
         answer: "A. Hertz",
         options: [
@@ -110,7 +276,7 @@ let questions = [
         ]
     },
     {
-        numb: 11,
+        numb: 26,
         question: "Which of the following is system software?",
         answer: "B. Operating System",
         options: [
@@ -121,7 +287,7 @@ let questions = [
         ]
     },
     {
-        numb: 12,
+        numb: 27,
         question: "What does 'OS' stand for?",
         answer: "B. Operating System",
         options: [
@@ -132,7 +298,7 @@ let questions = [
         ]
     },
     {
-        numb: 13,
+        numb: 28,
         question: "Which type of software is used for creating documents?",
         answer: "C. Word processor",
         options: [
@@ -143,7 +309,7 @@ let questions = [
         ]
     },
     {
-        numb: 14,
+        numb: 29,
         question: "What does 'IP' stand for in networking?",
         answer: "A. Internet Protocol",
         options: [
@@ -154,7 +320,7 @@ let questions = [
         ]
     },
     {
-        numb: 15,
+        numb: 30,
         question: "Which of the following is NOT a type of network?",
         answer: "D. PANIC",
         options: [
@@ -165,7 +331,7 @@ let questions = [
         ]
     },
     {
-        numb: 16,
+        numb: 31,
         question: "What does Wi-Fi stand for?",
         answer: "A. Wireless Fidelity",
         options: [
@@ -176,7 +342,7 @@ let questions = [
         ]
     },
     {
-        numb: 17,
+        numb: 32,
         question: "Which of the following is NOT a programming language?",
         answer: "C. Microsoft Word",
         options: [
@@ -187,7 +353,7 @@ let questions = [
         ]
     },
     {
-        numb: 18,
+        numb: 33,
         question: "Which extension is used for a Microsoft document?",
         answer: "C. .doc",
         options: [
@@ -198,7 +364,7 @@ let questions = [
         ]
     },
     {
-        numb: 19,
+        numb: 34,
         question: "8 Bits is equal to?",
         answer: "1 Byes",
         options: [
@@ -209,7 +375,7 @@ let questions = [
         ]
     },
     {
-        numb: 20,
+        numb: 35,
         question: "What is the short key for saving a document?",
         answer: "B. Ctrl + S",
         options: [
@@ -220,7 +386,7 @@ let questions = [
         ]
     },
     {
-        numb: 21,
+        numb: 36,
         question: "When digital and analog computers are combined together, they form a ___________.",
         answer: "B. Hybrid Computer",
         options: [
@@ -231,7 +397,7 @@ let questions = [
         ]
     },
     {
-        numb: 22,
+        numb: 37,
         question: "Which type of computer is the fastest and most powerful, used for complex calculations and large-scale processing?",
         answer: "C. Supercomputer",
         options: [
@@ -242,7 +408,7 @@ let questions = [
         ]
     },
     {
-        numb: 23,
+        numb: 38,
         question: "Which type of computer is designed to support multiple users simultaneously?",
         answer: "B. Mainframe Computer",
         options: [
@@ -253,7 +419,7 @@ let questions = [
         ]
     },
     {
-        numb: 24,
+        numb: 39,
         question: "Which of the following is an example of a digital computer?",
         answer: "B. Calculator",
         options: [
@@ -264,7 +430,7 @@ let questions = [
         ]
     },
     {
-        numb: 25,
+        numb: 40,
         question: "What is the shortcut key to redo the last action?",
         answer: "A. Ctrl + Y",
         options: [
@@ -275,7 +441,7 @@ let questions = [
         ]
     },
     {
-        numb: 26,
+        numb: 41,
         question: "What is the shortcut key to bold the selected text?",
         answer: "C. Ctrl + B",
         options: [
@@ -286,7 +452,7 @@ let questions = [
         ]
     },
     {
-        numb: 27,
+        numb: 42,
         question: "What is data?",
         answer: "B. Raw facts and figures",
         options: [
@@ -297,7 +463,7 @@ let questions = [
         ]
     },
     {
-        numb: 28,
+        numb: 43,
         question: "1 Gigabyte (GB) is equal to how many Megabytes (MB)?",
         answer: "C. 1024 MB",
         options: [
@@ -308,7 +474,7 @@ let questions = [
         ]
     },
     {
-        numb: 29,
+        numb: 44,
         question: "Who is known as the 'Father of Computers'?",
         answer: "B. Charles Babbage",
         options: [
@@ -319,7 +485,7 @@ let questions = [
         ]
     },
     {
-        numb: 30,
+        numb: 45,
         question: "Which of the following is an example of hardware?",
         answer: "B. Printer",
         options: [
