@@ -547,3 +547,68 @@ img {
     height: auto;
 }
 
+/* ✅✅✅✅ */
+/* Additional fixes for better mobile responsiveness */
+@media (max-width: 768px) {
+    .popup-info,
+    .quiz-section .quiz-box,
+    .quiz-section .result-box {
+        width: 90%;
+    }
+
+    .quiz-footer .next-btn {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .popup-info,
+    .quiz-section .quiz-box,
+    .quiz-section .result-box {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .popup-info h2,
+    .result-box h2 {
+        font-size: 32px;
+    }
+
+    .percentage-container .circular-progress {
+        width: 180px;
+        height: 180px;
+    }
+
+    .percentage-container .circular-progress::before {
+        width: 150px;
+        height: 150px;
+    }
+
+    .circular-progress .progress-value {
+        font-size: 32px;
+    }
+
+    .percentage-container .score-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .popup-info .btn-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .popup-info .btn-group .info-btn {
+        width: 100%;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .buttons button {
+        margin: 10px 0;
+    }
+}
