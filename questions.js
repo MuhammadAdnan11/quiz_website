@@ -69,7 +69,7 @@ let questions =
         {
             numb: 7,
             question: "MRI machines often use which type of computer system for data interpretation?",
-            answer: "A. Supercomputer",
+            answer: "B. Digital",
             options: [
                 "A. Supercomputer",
                 "B. Digital",
