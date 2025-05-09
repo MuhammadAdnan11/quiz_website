@@ -659,6 +659,138 @@ let questions =
         "C. Ctrl + V",
         "D. Ctrl + B"
     ]
+},
+{
+    numb: 61,
+    question: "Which type of network is typically used within a hospital building to connect departments such as radiology, labs, and administration?",
+    answer: "B. LAN",
+    options: [
+        "A. WAN",
+        "B. LAN",
+        "C. MAN",
+        "D. PAN"
+    ]
+},
+{
+    numb: 62,
+    question: "What is the main advantage of using a network in a healthcare facility?",
+    answer: "B. Efficient data sharing and communication",
+    options: [
+        "A. Less power consumption",
+        "B. Efficient data sharing and communication",
+        "C. Reduced staff requirement",
+        "D. Avoids the need for software"
+    ]
+},
+{
+    numb: 63,
+    question: "Which device is commonly used to connect multiple computers in a hospital LAN?",
+    answer: "C. Switch",
+    options: [
+        "A. Router",
+        "B. Modem",
+        "C. Switch",
+        "D. Firewall"
+    ]
+},
+{
+    numb: 64,
+    question: "In telemedicine, which type of network connection is essential for real-time video consultation between doctors and patients in remote areas?",
+    answer: "A. WAN",
+    options: [
+        "A. WAN",
+        "B. LAN",
+        "C. PAN",
+        "D. SAN"
+    ]
+},
+{
+    numb: 65,
+    question: "What kind of network would a smartwatch that monitors a patient’s heart rate and sends it to their phone use?",
+    answer: "D. PAN",
+    options: [
+        "A. LAN",
+        "B. WAN",
+        "C. MAN",
+        "D. PAN"
+    ]
+},
+{
+    numb: 66,
+    question: "Which of the following is the biggest risk when medical devices are connected through a network?",
+    answer: "C. Cybersecurity threats",
+    options: [
+        "A. High costs",
+        "B. Power failures",
+        "C. Cybersecurity threats",
+        "D. Software updates"
+    ]
+},
+{
+    numb: 67,
+    question: "What role does a router play in a hospital network?",
+    answer: "A. Directs data between different networks",
+    options: [
+        "A. Directs data between different networks",
+        "B. Stores patient data",
+        "C. Prints reports",
+        "D. Monitors patient vitals"
+    ]
+},
+{
+    numb: 68,
+    question: "What is the main function of a firewall in a healthcare network?",
+    answer: "B. Protects against unauthorized access",
+    options: [
+        "A. Connects computers wirelessly",
+        "B. Protects against unauthorized access",
+        "C. Increases internet speed",
+        "D. Scans for viruses"
+    ]
+},
+{
+    numb: 69,
+    question: "Which protocol is commonly used for secure transmission of patient data over networks?",
+    answer: "C. HTTPS",
+    options: [
+        "A. FTP",
+        "B. HTTP",
+        "C. HTTPS",
+        "D. SMTP"
+    ]
+},
+{
+    numb: 70,
+    question: "What kind of network setup would most benefit an ICU requiring continuous data monitoring of multiple patients?",
+    answer: "B. LAN",
+    options: [
+        "A. WAN",
+        "B. LAN",
+        "C. PAN",
+        "D. MAN"
+    ]
+},
+{
+    numb: 71,
+    question: "Why is bandwidth an important consideration in hospital networks?",
+    answer: "A. To handle large data from imaging and video consultations",
+    options: [
+        "A. To handle large data from imaging and video consultations",
+        "B. To reduce power usage",
+        "C. To control staff movement",
+        "D. To update software faster"
+    ]
+},
+{
+    numb: 72,
+    question: "Which network component is essential for providing Wi-Fi access in a hospital?",
+    answer: "C. Access Point",
+    options: [
+        "A. Switch",
+        "B. Modem",
+        "C. Access Point",
+        "D. Firewall"
+    ]
 }
 
 
