@@ -495,5 +495,171 @@ let questions =
             "D. Web browser"
         ]
     },
+    {
+    numb: 46,
+    question: "What is the default file extension for a Microsoft Word document in Word 2016 and later?",
+    answer: "C. .docx",
+    options: [
+        "A. .txt",
+        "B. .doc",
+        "C. .docx",
+        "D. .pdf"
+    ]
+},
+{
+    numb: 47,
+    question: "Which of the following shortcut keys is used to save a document?",
+    answer: "C. Ctrl + S",
+    options: [
+        "A. Ctrl + X",
+        "B. Ctrl + V",
+        "C. Ctrl + S",
+        "D. Ctrl + C"
+    ]
+},
+{
+    numb: 48,
+    question: "Which tab contains the “Font” group in the Ribbon?",
+    answer: "B. Home",
+    options: [
+        "A. Insert",
+        "B. Home",
+        "C. Layout",
+        "D. Review"
+    ]
+},
+{
+    numb: 49,
+    question: "Which key combination is used to make text bold in MS Word?",
+    answer: "A. Ctrl + B",
+    options: [
+        "A. Ctrl + B",
+        "B. Ctrl + I",
+        "C. Ctrl + U",
+        "D. Ctrl + D"
+    ]
+},
+{
+    numb: 50,
+    question: "What is the purpose of the “Track Changes” feature in Word?",
+    answer: "C. To show edits made by different users",
+    options: [
+        "A. To change font style",
+        "B. To track document downloads",
+        "C. To show edits made by different users",
+        "D. To count words"
+    ]
+},
+{
+    numb: 51,
+    question: "Which of the following is NOT a valid text alignment in Word?",
+    answer: "D. Rotate",
+    options: [
+        "A. Left",
+        "B. Center",
+        "C. Justify",
+        "D. Rotate"
+    ]
+},
+{
+    numb: 52,
+    question: "Which feature allows you to create a list with bullets or numbers?",
+    answer: "C. Bullets and Numbering",
+    options: [
+        "A. Format Painter",
+        "B. Styles",
+        "C. Bullets and Numbering",
+        "D. Track Changes"
+    ]
+},
+{
+    numb: 53,
+    question: "The shortcut key for 'Undo' is:",
+    answer: "B. Ctrl + Z",
+    options: [
+        "A. Ctrl + Y",
+        "B. Ctrl + Z",
+        "C. Ctrl + A",
+        "D. Ctrl + X"
+    ]
+},
+{
+    numb: 54,
+    question: "What does the 'Ctrl + Enter' shortcut do in MS Word?",
+    answer: "C. Inserts a page break",
+    options: [
+        "A. Saves the document",
+        "B. Starts a new paragraph",
+        "C. Inserts a page break",
+        "D. Opens a new window"
+    ]
+},
+{
+    numb: 55,
+    question: "Which tab is used to add a Table of Contents in Word?",
+    answer: "C. References",
+    options: [
+        "A. Design",
+        "B. Layout",
+        "C. References",
+        "D. Insert"
+    ]
+},
+{
+    numb: 56,
+    question: "What is a “Header” in MS Word?",
+    answer: "C. Text appearing at the top margin of each page",
+    options: [
+        "A. The text at the bottom of the page",
+        "B. The title of the document",
+        "C. Text appearing at the top margin of each page",
+        "D. Text behind the document"
+    ]
+},
+{
+    numb: 57,
+    question: "What does “Mail Merge” help with?",
+    answer: "C. Sending personalized documents to many recipients",
+    options: [
+        "A. Editing images",
+        "B. Merging two Word files",
+        "C. Sending personalized documents to many recipients",
+        "D. Printing envelopes only"
+    ]
+},
+{
+    numb: 58,
+    question: "Which of these can be inserted into a Word document?",
+    answer: "D. All of the above",
+    options: [
+        "A. Pictures",
+        "B. Charts",
+        "C. Hyperlinks",
+        "D. All of the above"
+    ]
+},
+{
+    numb: 59,
+    question: "What is the function of 'Spell Check' in MS Word?",
+    answer: "A. To correct grammatical errors",
+    options: [
+        "A. To correct grammatical errors",
+        "B. To check font size",
+        "C. To remove formatting",
+        "D. To convert text to speech"
+    ]
+},
+{
+    numb: 60,
+    question: "Which command is used to duplicate selected text in Word?",
+    answer: "B. Ctrl + C",
+    options: [
+        "A. Ctrl + X",
+        "B. Ctrl + C",
+        "C. Ctrl + V",
+        "D. Ctrl + B"
+    ]
+}
+
 
 ];
